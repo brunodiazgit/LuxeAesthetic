@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header nav .navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+header nav .collapse ul a {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
