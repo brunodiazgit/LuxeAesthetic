@@ -1,60 +1,95 @@
-const testimoniosContainer = document.getElementById("testimonios")
-
 const testimonios = [
     {
         name: "Juan Pérez",
-        feedback: "Este servicio cambió mi vida, ¡lo recomiendo al 100%!",
-        photo: "https://via.placeholder.com/60?text=Juan",
-        rating: 5,
+        text: "Este servicio cambió mi vida, ¡lo recomiendo al 100%!",
+        stars: 5,
     },
     {
         name: "María García",
-        feedback: "Excelente atención y resultados increíbles. Volveré pronto.",
-        photo: "https://via.placeholder.com/60?text=Maria",
-        rating: 5,
+        text: "Excelente atención y resultados increíbles. Volveré pronto.",
+        stars: 5,
     },
     {
         name: "Carlos López",
-        feedback: "Muy profesional, resolvieron todas mis dudas rápidamente.",
-        photo: "https://via.placeholder.com/60?text=Carlos",
-        rating: 5,
+        text: "Muy profesional, resolvieron todas mis dudas rápidamente.",
+        stars: 5,
     },
     {
         name: "Ana Torres",
-        feedback: "¡Me encantó! El equipo fue muy atento y amable.",
-        photo: "https://via.placeholder.com/60?text=Ana",
-        rating: 5,
+        text: "¡Me encantó! El equipo fue muy atento y amable.",
+        stars: 5,
     },
     {
         name: "Luis Fernández",
-        feedback: "Un servicio excepcional y de alta calidad.",
-        photo: "https://via.placeholder.com/60?text=Luis",
-        rating: 5,
+        text: "Un servicio excepcional y de alta calidad.",
+        stars: 5,
     },
     {
         name: "Sofía Ramírez",
-        feedback: "Hubo pequeños retrasos, pero el resultado fue excelente.",
-        photo: "https://via.placeholder.com/60?text=Sofia",
-        rating: 5,
+        text: "Hubo pequeños retrasos, pero el resultado fue excelente.",
+        stars: 5,
     },
     {
         name: "Pedro Castillo",
-        feedback: "Muy satisfecho con el trabajo, definitivamente lo recomiendo.",
-        photo: "https://via.placeholder.com/60?text=Pedro",
-        rating: 5,
+        text: "Muy satisfecho con el trabajo, definitivamente lo recomiendo.",
+        stars: 5,
     },
     {
         name: "Laura Jiménez",
-        feedback: "El precio es justo para la calidad que ofrecen.",
-        photo: "https://via.placeholder.com/60?text=Laura",
-        rating: 5,
+        text: "El precio es justo",
+        stars: 5,
     },
     {
         name: "Diego Martínez",
-        feedback: "Me ayudaron mucho, el equipo es muy profesional.",
-        photo: "https://via.placeholder.com/60?text=Diego",
-        rating: 5,
+        text: "Me ayudaron mucho, el equipo es muy profesional.",
+        stars: 5,
     },
 ]
+
+function createTestimonials(testimonials) {
+    const container = document.getElementById('testimonial')
+
+    testimonials.forEach(({ name, stars, text }) => {
+
+        const testimonialDiv = document.createElement('div')
+        testimonialDiv.className = 'testimonial'
+
+        const photoImg = document.createElement('img')
+        photoImg.src = "../images/user.png"
+        photoImg.alt = `${name}'s photo`
+        photoImg.className = 'testimonial-photo'
+
+        const nameElement = document.createElement('h3')
+        nameElement.textContent = name
+        nameElement.className = 'testimonial-name'
+
+        const textElement = document.createElement('p')
+        textElement.textContent = text
+        textElement.className = 'testimonial-text'
+
+
+        const starsDiv = document.createElement('div')
+        starsDiv.className = 'testimonial-stars'
+
+        for (let i = 0; i < stars; i++) {
+            const star = document.createElement('span')
+            star.textContent = '★' 
+            star.className = 'star'
+            starsDiv.appendChild(star)
+        }
+
+        testimonialDiv.appendChild(photoImg)
+        testimonialDiv.appendChild(nameElement)
+        testimonialDiv.appendChild(textElement)
+        testimonialDiv.appendChild(starsDiv)
+
+        container.appendChild(testimonialDiv)
+    })
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    createTestimonials(testimonios)
+})
 
 

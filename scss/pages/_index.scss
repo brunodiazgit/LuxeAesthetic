@@ -1,0 +1,55 @@
+main {
+    section {
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+
+            p {
+                font-size: 1.3rem;
+                font-weight: bolder;
+                margin: 0 1.5rem 0 1.5rem;
+                text-align: center;
+            }
+        }
+
+        button {
+            width: 12rem;
+            height: 3rem;
+            background-color: black;
+            color: white;
+            border: 0;
+            letter-spacing: 1px;
+            margin: 1rem;
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        article {
+            .treatment-text {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .stars {
+                    font-size: 2rem;
+                    color: rgb(204, 153, 44);
+                }
+            }
+        }
+    }
+}
