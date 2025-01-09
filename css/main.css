@@ -253,6 +253,9 @@ main .section-nosotros p {
 .main-contacto .section-contacto form div textarea {
   border: 1px solid rgb(43, 43, 43);
 }
+.main-contacto .section-contacto form button {
+  width: 16rem;
+}
 
 footer .testimonial-container .testimonial-title {
   font-size: 2rem;
@@ -320,6 +323,32 @@ footer section nav ul li a:hover {
   margin-top: 5px;
   color: gold;
   font-size: 20px;
+}
+
+@media screen and (min-width: 578px) {
+  .main-contacto .section-contacto form div input {
+    height: 3rem;
+  }
+  .main-contacto .section-contacto form button {
+    width: 20rem;
+  }
+  footer section h5 {
+    font-size: 2rem;
+  }
+  footer section button {
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+  }
+  footer section .footer-brand {
+    font-size: 4rem;
+  }
+  footer section div p {
+    font-size: 1.5rem;
+  }
+  footer section nav ul li a {
+    font-size: 1.3rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

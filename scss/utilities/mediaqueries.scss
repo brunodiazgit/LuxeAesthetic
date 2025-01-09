@@ -1,0 +1,57 @@
+@media screen and (min-width: 578px) {
+    .main-contacto {
+        .section-contacto {
+            form {
+                div {
+                    input {
+                        height: 3rem;
+                    }
+                }
+
+                button {
+                    width: 20rem;
+                }
+            }
+        }
+    }
+
+    footer {
+        section {
+            h5 {
+                font-size: 2rem;
+            }
+
+            button {
+                width: 15rem;
+                height: 3.5rem;
+                font-size: 1.3rem;
+            }
+
+            .footer-brand {
+                font-size: 4rem;
+            }
+
+            div {
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        section {
+            nav {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}

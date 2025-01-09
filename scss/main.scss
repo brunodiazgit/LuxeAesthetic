@@ -1,6 +1,8 @@
 @use './utilities/reset.scss';
 @use './utilities/globals.scss';
+
 @use './components/header.scss';
+
 @use './pages/index';
 @use './pages/cejas';
 @use './pages/labios';
@@ -10,4 +12,6 @@
 @use './pages/mision-vision';
 @use './pages/terminos';
 @use './pages/contacto';
+
 @use './components/footer.scss';
+@use './utilities/mediaqueries.scss';
