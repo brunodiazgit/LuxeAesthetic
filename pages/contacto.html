@@ -37,10 +37,10 @@
                                 Servicios
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Cejas</a></li>
-                                <li><a class="dropdown-item" href="#">Labios</a></li>
-                                <li><a class="dropdown-item" href="#">Remoción de tatuajes</a></li>
-                                <li><a class="dropdown-item" href="#">Delineado de párpados</a></li>
+                                <li><a class="dropdown-item" href="cejas.html">Cejas</a></li>
+                                <li><a class="dropdown-item" href="labios.html">Labios</a></li>
+                                <li><a class="dropdown-item" href="tatuaje.html">Remoción de tatuajes</a></li>
+                                <li><a class="dropdown-item" href="parpados.html">Delineado de párpados</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -61,26 +61,27 @@
         </nav>
     </header>
 
-    <main>
-        <section class="d-flex flex-column justify-content-center">
+    <main class="main-contacto">
+        <section class="section-contacto">
             <h1>Contacto</h1>
-            <hr>
-    
+
             <h2>¿Tienes alguna consulta? ¡Estamos aquí para ayudarte!</h2>
-    
-            <p>Si tienes alguna pregunta, deseas más información sobre nuestros tratamientos o necesitas hacer una cita, no dudes en contactarnos. Aquí tienes nuestras formas de contacto:</p>
-    
+
+            <p>Si tienes alguna pregunta, deseas más información sobre nuestros tratamientos o necesitas hacer una cita,
+                no dudes en contactarnos. Aquí tienes nuestras formas de contacto:</p>
+
             <h3>Información de contacto</h3>
             <ul>
                 <li><strong>Teléfono:</strong> +598 1223 4563 7859</li>
                 <li><strong>Correo electrónico:</strong> contacto@luxe-aesthetic.com</li>
                 <li><strong>Dirección:</strong> Calle Ficticia 123, Montevideo, Uruguay</li>
-                <li><strong>Horario de atención:</strong> Lunes a Viernes: 9:00 AM - 6:00 PM | Sábados: 10:00 AM - 2:00 PM</li>
+                <li><strong>Horario de atención:</strong> Lunes a Viernes: 9:00 AM - 6:00 PM</li>
             </ul>
-    
+
             <h3>Formulario de contacto</h3>
-            <p>Si prefieres escribirnos directamente, puedes completar el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
-    
+            <p>Si prefieres escribirnos directamente, puedes completar el siguiente formulario y nos pondremos en
+                contacto contigo lo antes posible.</p>
+
             <form action="submit_form.php" method="post">
                 <div class="mb-3">
                     <label for="name" class="form-label">Nombre</label>
@@ -98,28 +99,30 @@
             </form>
         </section>
     </main>
-    
-    
-    
-    
+
     <footer>
         <div id="testimonial" class="testimonial-container">
-            <h5>Testimonios</h5>
+            <hr>
+            <h5 class="testimonial-title text-center">Testimonios</h5>
             <hr>
         </div>
-        <section>
-            <h5>Cómo te podemos ayudar?</h5>
-            <button class="contact-us">Contactanos</button>
-            <h6>Luxe Aesthetic</h6>
-            <p>Calle Ficticia 123, Montevideo, Uruguay</p>
-            <p>Lunes a Viernes: 9:00 AM - 6:00 PM | Sábados: 10:00 AM - 2:00 PM</p>
-            <p>+598 1223 4563 7859</p>
+        <section class="d-flex flex-column justify-content-center align-items-center">
+            <h5 class="text-center m-2">Cómo te podemos ayudar?</h5>
+            <button>CONTÁCTANOS</button>
+            <p class="footer-brand">Luxe Aesthetic</p>
+            <div class="d-flex flex-column align-items-start">
+                <p><img src="../images/maps.png" alt="maps icon" class="map-icon"> Calle Ficticia 123, Montevideo,
+                    Uruguay</p>
+                <p><img src="../images/clock.png" alt="clock icon" class="clock-icon"> Lunes a Viernes: 9:00 AM - 6:00 PM
+                </p>
+                <p><img src="../images/call.png" alt="maps icon" class="call-icon"> +598 1223 4563 7859</p>
+            </div>
         </section>
         <section>
             <nav>
                 <ul>
                     <li>
-                        <a href="/index.html">Inicio</a>
+                        <a href="../index.html">Inicio</a>
                     </li>
                     <li>
                         <a href="nosotros.html">Nosotros</a>
@@ -137,4 +140,5 @@
     <script src="../js/testimonios.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

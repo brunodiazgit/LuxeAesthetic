@@ -37,10 +37,10 @@
                                 Servicios
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Cejas</a></li>
-                                <li><a class="dropdown-item" href="#">Labios</a></li>
-                                <li><a class="dropdown-item" href="#">Remoción de tatuajes</a></li>
-                                <li><a class="dropdown-item" href="#">Delineado de párpados</a></li>
+                                <li><a class="dropdown-item" href="./pages/cejas.html">Cejas</a></li>
+                                <li><a class="dropdown-item" href="./pages/labios.html">Labios</a></li>
+                                <li><a class="dropdown-item" href="./pages/tatuaje.html">Remoción de tatuajes</a></li>
+                                <li><a class="dropdown-item" href="./pages/parpados.html">Delineado de párpados</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -61,8 +61,8 @@
         </nav>
     </header>
 
-    <main>
-        <section class="d-flex flex-column justify-content-center align-items-center">
+    <main class="main-index">
+        <section class="d-flex flex-column justify-content-center align-items-center main-section">
             <h1>Descubre Tu Mejor Versión</h1>
             <article>
                 <p>En nuestra clínica estética, estamos comprometidos a resaltar tu belleza natural y ayudarte a
@@ -82,13 +82,15 @@
             <button>AGENDAR CITA</button>
         </section>
 
-        <section class="text-center">
+        <section class="text-center main-section-2">
             <h2 class="m-4">Servicios</h2>
             <article class="d-flex flex-column justify-content-center ">
                 <img src="./images/main/eyebrow-main.jpeg" alt="Mujer con ojos cerrados">
                 <div class="treatment-text">
-                    <p class="stars">★★★★★</p>
-                    <h3>Cejas Pelo a Pelo: Nanoblading LightBrows</h3>
+                    <div>
+                        <p class="stars">★★★★★</p>
+                        <h3>Cejas Pelo a Pelo: Nanoblading LightBrows</h3>
+                    </div>
                     <p><strong>Resalta tu belleza natural</strong> con nuestro innovador tratamiento de
                         <strong>Nanoblading LightBrows</strong>, diseñado para crear cejas perfectas y realistas.
                     </p>
@@ -103,8 +105,10 @@
             <article class="d-flex flex-column justify-content-center ">
                 <img src="./images/main/lips-main.png" alt="Labios de mujer">
                 <div class="treatment-text">
-                    <p class="stars">★★★★★</p>
-                    <h3>Maquillaje Semipermanente de Labios: Nanopigmentación Labial</h3>
+                    <div>
+                        <p class="stars">★★★★★</p>
+                        <h3>Maquillaje Semipermanente de Labios: Nanopigmentación Labial</h3>
+                    </div>
                     <p><strong>Luce unos labios irresistibles</strong> todos los días con nuestra técnica de
                         <strong>Nanopigmentación Labial</strong>.
                     </p>
@@ -121,8 +125,10 @@
             <article class="d-flex flex-column justify-content-center ">
                 <img src="./images/main/eyelids-main.jpg" alt="Párpados">
                 <div class="treatment-text">
-                    <p class="stars">★★★★★</p>
-                    <h3>Delineado de Párpados: Delineado "Invisible"</h3>
+                    <div>
+                        <p class="stars">★★★★★</p>
+                        <h3>Delineado de Párpados: Delineado "Invisible"</h3>
+                    </div>
                     <p><strong>Realza tu mirada con sutileza</strong> gracias a nuestro <strong>Delineado "Invisible"
                             sobre las pestañas</strong>.</p>
                     <p>Este procedimiento redefine la línea natural de tus pestañas para un efecto más voluminoso y
@@ -137,10 +143,13 @@
             <article class="d-flex flex-column justify-content-center ">
                 <img src="./images/main/tattoo-removal-main.jpg" alt="Removiendo tatuaje">
                 <div class="treatment-text">
-                    <p class="stars">★★★★★</p>
-                    <h3>Remoción de Tatuajes</h3>
+                    <div>
+                        <p class="stars">★★★★★</p>
+                        <h3>Remoción de Tatuajes</h3>
+                    </div>
                     <p><strong>Despídete de los tatuajes no deseados</strong> con nuestra tecnología avanzada de
-                        <strong>remoción segura y eficaz</strong>.</p>
+                        <strong>remoción segura y eficaz</strong>.
+                    </p>
                     <p>Utilizamos técnicas de última generación para eliminar pigmentos de manera gradual y cuidadosa,
                         protegiendo tu piel.</p>
                     <p><strong>Tiempo de realización:</strong> Entre 30 minutos y 1 hora por sesión.</p>
@@ -159,13 +168,17 @@
             <h5 class="testimonial-title text-center">Testimonios</h5>
             <hr>
         </div>
-        <section>
-            <h5>Cómo te podemos ayudar?</h5>
-            <button class="contact-us">Contactanos</button>
-            <h6>Luxe Aesthetic</h6>
-            <p>Calle Ficticia 123, Montevideo, Uruguay</p>
-            <p>Lunes a Viernes: 9:00 AM - 6:00 PM | Sábados: 10:00 AM - 2:00 PM</p>
-            <p>+598 1223 4563 7859</p>
+        <section class="d-flex flex-column justify-content-center align-items-center">
+            <h5 class="text-center m-2">Cómo te podemos ayudar?</h5>
+            <button>CONTÁCTANOS</button>
+            <p class="footer-brand">Luxe Aesthetic</p>
+            <div class="d-flex flex-column align-items-start">
+                <p><img src="./images/maps.png" alt="maps icon" class="map-icon"> Calle Ficticia 123, Montevideo,
+                    Uruguay</p>
+                <p><img src="./images/clock.png" alt="clock icon" class="clock-icon"> Lunes a Viernes: 9:00 AM - 6:00 PM
+                </p>
+                <p><img src="./images/call.png" alt="maps icon" class="call-icon"> +598 1223 4563 7859</p>
+            </div>
         </section>
         <section>
             <nav>

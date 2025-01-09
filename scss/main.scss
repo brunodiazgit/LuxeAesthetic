@@ -2,4 +2,12 @@
 @use './utilities/globals.scss';
 @use './components/header.scss';
 @use './pages/index';
-@use './components//footer.scss';
+@use './pages/cejas';
+@use './pages/labios';
+@use './pages/parpados';
+@use './pages/tatuaje';
+@use './pages/nosotros';
+@use './pages/mision-vision';
+@use './pages/terminos';
+@use './pages/contacto';
+@use './components/footer.scss';

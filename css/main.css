@@ -10,6 +10,14 @@ body {
   font-style: normal;
 }
 
+li a:hover {
+  color: rgba(238, 184, 8, 0.925);
+}
+
+p {
+  font-weight: bolder;
+}
+
 header nav .navbar-brand {
   font-size: 2.5rem;
   font-family: "Playfair Display", serif;
@@ -17,6 +25,9 @@ header nav .navbar-brand {
 }
 header nav .collapse ul a {
   font-size: 1.5rem;
+}
+header nav .collapse ul a:hover {
+  color: rgb(221, 166, 16) !important;
 }
 
 main section h1 {
@@ -62,9 +73,213 @@ main section article .treatment-text .stars {
   color: rgb(204, 153, 44);
 }
 
+.main-cejas article {
+  display: flex;
+  flex-direction: column;
+}
+.main-cejas article .treatment-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-cejas article .treatment-text h1 {
+  margin: 1rem;
+}
+.main-cejas article .treatment-text p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 1.5rem;
+}
+.main-cejas article .treatment-text ul li {
+  font-size: 1.3rem;
+}
+.main-cejas article .treatment-text button {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 0;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+.main-labios article {
+  display: flex;
+  flex-direction: column;
+}
+.main-labios article .treatment-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-labios article .treatment-text h1 {
+  margin: 1rem;
+}
+.main-labios article .treatment-text p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 1.5rem;
+}
+.main-labios article .treatment-text ul li {
+  font-size: 1.3rem;
+}
+.main-labios article .treatment-text button {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 0;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+.main-parpados article {
+  display: flex;
+  flex-direction: column;
+}
+.main-parpados article .treatment-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-parpados article .treatment-text h1 {
+  margin: 1rem;
+}
+.main-parpados article .treatment-text p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 1.5rem;
+}
+.main-parpados article .treatment-text ul li {
+  font-size: 1.3rem;
+}
+.main-parpados article .treatment-text button {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 0;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+.main-tatuaje article {
+  display: flex;
+  flex-direction: column;
+}
+.main-tatuaje article .treatment-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-tatuaje article .treatment-text h1 {
+  margin: 1rem;
+}
+.main-tatuaje article .treatment-text p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 1.5rem;
+}
+.main-tatuaje article .treatment-text ul li {
+  font-size: 1.3rem;
+}
+.main-tatuaje article .treatment-text button {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 0;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+main .section-nosotros {
+  margin: 0 1.5rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .section-nosotros p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: start;
+}
+
+.main-visionmision .section-misionvision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.main-visionmision .section-misionvision p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.main-terminos .section-terminos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.main-terminos .section-terminos ul li {
+  font-size: 1.3rem;
+}
+.main-terminos .section-terminos p {
+  font-size: 1.3rem;
+}
+
+.main-contacto .section-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.main-contacto .section-contacto ul li {
+  font-size: 1.3rem;
+}
+.main-contacto .section-contacto p {
+  font-size: 1.3rem;
+}
+.main-contacto .section-contacto form div input {
+  border: 1px solid rgb(43, 43, 43);
+}
+.main-contacto .section-contacto form div textarea {
+  border: 1px solid rgb(43, 43, 43);
+}
+
 footer .testimonial-container .testimonial-title {
   font-size: 2rem;
   margin: 2rem;
+}
+footer section button {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 0;
+  letter-spacing: 2px;
+  margin: 1rem;
+}
+footer section .footer-brand {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 2rem 0 2rem 0;
+}
+footer section .map-icon {
+  height: 2rem;
+}
+footer section .call-icon {
+  height: 1.5rem;
+}
+footer section .clock-icon {
+  height: 1.7rem;
 }
 footer section nav ul li a {
   text-decoration: none;

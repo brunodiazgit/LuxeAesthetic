@@ -1,0 +1,20 @@
+.main-terminos {
+    .section-terminos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0 1.5rem 0 1.5rem;
+
+        ul {
+            li {
+                font-size: 1.3rem;
+            }
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+    }
+}

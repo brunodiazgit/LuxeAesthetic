@@ -1,14 +1,18 @@
-header{
-    nav{
-        .navbar-brand{
+header {
+    nav {
+        .navbar-brand {
             font-size: 2.5rem;
             font-family: "Playfair Display", serif;
             font-weight: 400;
         }
-        .collapse{
-            ul{
-                a{
-                    font-size: 1.5rem;
+
+        .collapse {
+            ul {
+                a {
+                        font-size: 1.5rem;
+                        &:hover {
+                            color: rgb(221, 166, 16) !important;
+                        }
                 }
             }
         }
