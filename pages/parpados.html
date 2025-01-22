@@ -63,7 +63,7 @@
 
     <main class="main-parpados">
         <!-- Servicio: Delineado de Párpados -->
-        <article class="d-flex flex-column justify-content-center">
+        <article>
             <img src="../images/main/eyelids-main.jpg" alt="Párpados">
             <div class="treatment-text">
                     <h1>Delineado de Párpados: Delineado "Invisible"</h1>
@@ -92,44 +92,53 @@
                     <li><strong>Tiempo de realización:</strong> 1.5 a 2 horas.</li>
                     <li><strong>Duración:</strong> Entre 12 y 18 meses.</li>
                 </ul>
-                <button class="btn btn-primary">Agendar cita</button>
+                <button class="hvr-sweep-to-right" onclick="window.location.href='./contacto.html';">AGENDAR CITA</button>
             </div>
         </article>
     </main>
 
-    <footer>
+    <footer class="d-flex flex-column justify-content-center align-items-center">
+        <hr>
+        <h5 class="testimonial-title text-center">Testimonios</h5>
+        <hr>
         <div id="testimonial" class="testimonial-container">
-            <hr>
-            <h5 class="testimonial-title text-center">Testimonios</h5>
-            <hr>
         </div>
-        <section class="d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center m-4">
             <h5 class="text-center m-2">Cómo te podemos ayudar?</h5>
-            <button>CONTÁCTANOS</button>
-            <p class="footer-brand">Luxe Aesthetic</p>
-            <div class="d-flex flex-column align-items-start">
-                <p><img src="/images/maps.png" alt="maps icon" class="map-icon"> Calle Ficticia 123, Montevideo,
-                    Uruguay</p>
-                <p><img src="/images/clock.png" alt="clock icon" class="clock-icon"> Lunes a Viernes: 9:00 AM - 6:00
-                    PM
-                </p>
-                <p><img src="/images/call.png" alt="maps icon" class="call-icon"> +598 1223 4563 7859</p>
+            <button class="hvr-sweep-to-right" onclick="window.location.href='./contacto.html';">CONTÁCTANOS</button>
+        </div>
+        <section class="footer-section">
+
+            <div class="footer-div">
+                <div>
+                    <p class="footer-brand">Luxe Aesthetic</p>
+                </div>
+                <div class="line"></div>
+                <div class="d-flex flex-column align-items-start location">
+                    <p>Calle Ficticia 123, Montevideo,
+                        Uruguay</p>
+                    <p>Lunes a Viernes: 9:00 AM -
+                        6:00 PM
+                    </p>
+                    <p>+598 1223 4563 7859</p>
+                </div>
             </div>
-        </section>
-        <section>
+
+            <div class="line"></div>
+
             <nav>
                 <ul>
                     <li>
-                        <a href="../index.html">Inicio</a>
+                        <a href="/index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="nosotros.html">Nosotros</a>
+                        <a href="/pages/nosotros.html">Nosotros</a>
                     </li>
                     <li>
-                        <a href="terminos.html">Términos</a>
+                        <a href="/pages/terminos.html">Términos</a>
                     </li>
                     <li>
-                        <a href="contacto.html">Contacto</a>
+                        <a href="/pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </nav>

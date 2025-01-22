@@ -2,6 +2,7 @@
     article {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         .treatment-text{
             display: flex;
             flex-direction: column;
@@ -27,7 +28,6 @@
                 border: 0;
                 letter-spacing: 1px;
                 margin: 1rem;
-
             }
         }
     }

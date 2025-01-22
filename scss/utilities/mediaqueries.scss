@@ -16,17 +16,16 @@
     }
 
     footer {
+        h5 {
+            font-size: 2rem;
+        }
+
+        button {
+            width: 15rem;
+            height: 3.5rem;
+            font-size: 1.3rem;
+        }
         section {
-            h5 {
-                font-size: 2rem;
-            }
-
-            button {
-                width: 15rem;
-                height: 3.5rem;
-                font-size: 1.3rem;
-            }
-
             .footer-brand {
                 font-size: 4rem;
             }
@@ -53,5 +52,254 @@
 }
 
 @media screen and (min-width: 768px) {
+    .main-index {
+        .main-section-2 {
+            article {
+                flex-direction: row !important;
 
+                .eb-ph {
+                    height: 15rem;
+                }
+
+                .lp-ph {
+                    height: 20rem;
+                }
+
+                .el-ph {
+                    height: 12rem;
+                }
+
+                .t-ph {
+                    height: 12rem;
+                }
+            }
+        }
+    }
+
+    footer {
+        .testimonial-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .footer-section {
+            .footer-div{
+                flex-direction: row;
+                .footer-brand {
+                    font-size: 3.5;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        nav {
+            div {
+                flex-direction: column;
+            }
+        }
+    }
+
+    footer {
+        .footer-section{
+            .line{
+                display: block;
+            }
+        }
+        .footer-brand {
+            font-size: 3rem !important;
+        }
+
+
+        .footer-section {
+            flex-direction: row;
+            .location {
+                gap: 5px;
+                p {
+                    font-size: 1rem !important;
+                }
+            }
+            .map-icon {
+                height: 1.5rem;
+            }
+    
+            .call-icon {
+                height: 1.3rem;
+            }
+    
+            .clock-icon {
+                height: 1.3rem;
+            }
+        }
+
+        .testimonial-container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .main-cejas {
+        article {
+            flex-direction: row;
+
+            img {
+                height: 18rem;
+            }
+
+            .treatment-text {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .main-labios {
+        article {
+            flex-direction: row;
+
+            img {
+                height: 23rem;
+            }
+
+            .treatment-text {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .main-tatuaje {
+        article {
+            flex-direction: row;
+
+            img {
+                height: 15rem;
+            }
+
+            .treatment-text {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .main-parpados {
+        article {
+            flex-direction: row;
+
+            img {
+                height: 15rem;
+            }
+
+            .treatment-text {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-index {
+        margin-bottom: 5rem;
+        .main-section-2 {
+            article {
+                .treatment-text {
+                    p {
+                        max-width: 30rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-nosotros {
+        p {
+            max-width: 70rem;
+        }
+    }
+
+    .section-misionvision {
+        p {
+            max-width: 70rem;
+        }
+    }
+
+    .section-terminos {
+        p {
+            max-width: 50rem;
+        }
+
+        ul,
+        li {
+            max-width: 70rem;
+        }
+    }
+
+    .section-contacto {
+        p {
+            max-width: 50rem;
+        }
+    }
+
+    .main-cejas {
+        article {
+            p {
+                max-width: 50rem;
+            }
+        }
+    }
+
+    .main-labios {
+        article {
+            p {
+                max-width: 50rem;
+            }
+        }
+    }
+
+    .main-parpados {
+        article {
+            p {
+                max-width: 50rem;
+            }
+        }
+    }
+
+    .main-tatuaje {
+        article {
+            p {
+                max-width: 50rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    footer {
+        .footer-section {
+            .location {
+                gap: 5px;
+                p {
+                    font-size: 1.5rem !important;
+                }
+            }
+            .map-icon {
+                height: 1.5rem;
+            }
+    
+            .call-icon {
+                height: 1.3rem;
+            }
+    
+            .clock-icon {
+                height: 1.3rem;
+            }
+        }
+    }
 }

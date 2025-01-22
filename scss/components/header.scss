@@ -1,5 +1,8 @@
 header {
-    nav {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
         .navbar-brand {
             font-size: 2.5rem;
             font-family: "Playfair Display", serif;
@@ -9,12 +12,16 @@ header {
         .collapse {
             ul {
                 a {
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
+                        margin-right: 20px;
+                        letter-spacing: 1.5px;
                         &:hover {
                             color: rgb(221, 166, 16) !important;
                         }
                 }
             }
         }
+
+
     }
 }
