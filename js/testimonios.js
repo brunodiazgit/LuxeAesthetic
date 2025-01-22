@@ -55,7 +55,7 @@ function createTestimonials(testimonials) {
         testimonialDiv.className = 'testimonial'
 
         const photoImg = document.createElement('img')
-        photoImg.src = "/images/user.png"
+        photoImg.src = "../images/user.png"
         photoImg.alt = `${name}'s photo`
         photoImg.className = 'testimonial-photo'
 
