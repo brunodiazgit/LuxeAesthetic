@@ -54,8 +54,10 @@ function createTestimonials(testimonials) {
         const testimonialDiv = document.createElement('div')
         testimonialDiv.className = 'testimonial'
 
+        const baseURL = "/LuxeAesthetic/"
+
         const photoImg = document.createElement('img')
-        photoImg.src = "../images/user.png"
+        photoImg.src = `${baseURL}images/user.png`
         photoImg.alt = `${name}'s photo`
         photoImg.className = 'testimonial-photo'
 
